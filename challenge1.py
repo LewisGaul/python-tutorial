@@ -11,7 +11,7 @@
 
 # Can you work out the golden ratio (~1.6) using some of the code we have here?
 # Hint: try using ratios (and a google search if you need to!). Can you display
-# the answer neatly alongside the maximum error you think there is in your
+# the answer neatly alongside an upper bound for the percentage error in your
 # calculation?
 
 
