@@ -11,7 +11,7 @@
 
 # Can you work out the golden ratio (~1.6) using some of the code we have here?
 # Hint: try using ratios (and a google search if you need to!). Can you display
-# the answer neatly alongside the amount of error you think there is in your
+# the answer neatly alongside the maximum error you think there is in your
 # calculation?
 
 
@@ -26,4 +26,4 @@ all_vars = [var1, var2, var3, var4, var5, var4 + var5]
 bigger_all_vars = all_vars + [var4 + 2*var5, 2*var4 + 3*var5]
 
 message = "These are " + answer + " numbers:\n"
-print(message, bigger_all_vars)
+print(message, bigger_all_vars) #Remove the brackets if using Python version 2
