@@ -25,5 +25,5 @@ var5 = var3 + var4
 all_vars = [var1, var2, var3, var4, var5, var4 + var5]
 bigger_all_vars = all_vars + [var4 + 2*var5, 2*var4 + 3*var5]
 
-message = "These are " + answer + " numbers:\n"
+message = "This is a sequence of numbers called " + answer + " numbers:\n"
 print(message, bigger_all_vars) #Remove the brackets if using Python version 2
