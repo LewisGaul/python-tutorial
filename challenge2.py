@@ -12,7 +12,7 @@
 # variable names and clearer code where you can.
 
 # Decode the string shuffled_instructions with the code below to find the
-# challenge.
+# challenge. Hint for challenge: use a nested loop (loop inside a loop).
 
 # If you complete the task in the hidden message, can you reduce it to 4 lines?
 # Finally, use a while loop make a list of the powers of 3 which are less than
@@ -36,3 +36,13 @@ for j in indices:
 
 text = ''.join(text_list) #Try help(str) or help(str.join) in shell
 
+
+# If you complete the exercise above, here's a template for the final challenge.
+##powers_of_3 = [] #Initialise list
+# Use while loop...
+##print(powers_of_3) #Should be [3, 9, 27, 81, 273, 729]
+# Generalise what you've done to make a list which should be like:
+# [[3, 9, 27, 81, 273, 729], [5, 25, ...], [7, ...], [9, ...]]
+# and print each of the lists of powers separately in a for loop:
+##for pows in all_powers:
+##    print(pows)
