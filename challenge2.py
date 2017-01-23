@@ -21,7 +21,7 @@
 # less than 10 (the list created above should be one of the entries).
 
 
-shuffled_instructions = "iarrtbtl oe 4e0cl0b  ulooh 5s0p nu e umeh otoed u0ucaMseo ffp enloaeom    st1 dw iebnma0de wem h lnts lffiic t6lpiatti.uba hnr1  rn e lekesm"
+shuffled_instructions = "iarrtbtl oe 4e0cl0b  ulooh 8s0p nu e umeh otoed u0ucaMseo ffp enloaeom    st1 dw iebnma0de wem h lnts lffiic t6lpiatti.uba hnr1  rn e lekesm"
 shuffle_order = [97, 61, 138, 81, 108, 136, 68, 111, 92, 75, 131, 64, 84, 63, 53, 58, 17, 43, 34, 11, 123, 66, 16, 115, 91, 59, 33, 42, 119, 51, 110, 127, 26, 27, 18, 30, 6, 87, 65, 24, 23, 96, 19, 22, 121, 3, 102, 120, 106, 52, 101, 99, 5, 0, 9, 38, 80, 45, 122, 20, 116, 14, 118, 98, 67, 12, 1, 39, 94, 105, 49, 41, 113, 104, 73, 88, 50, 89, 48, 37, 25, 109, 137, 86, 47, 28, 129, 44, 90, 126, 82, 55, 103, 135, 60, 125, 79, 71, 40, 10, 128, 132, 7, 76, 13, 57, 8, 114, 74, 95, 78, 100, 70, 117, 46, 36, 124, 69, 139, 134, 29, 15, 85, 56, 133, 62, 83, 21, 4, 31, 93, 77, 112, 54, 107, 35, 2, 72, 32, 130]
 
 
