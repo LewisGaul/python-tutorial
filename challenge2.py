@@ -12,7 +12,13 @@
 # variable names and clearer code where you can.
 
 # Decode the string shuffled_instructions with the code below to find the
-# challenge. Hint for challenge: use a nested loop (loop inside a loop).
+# challenge.
+
+# If you complete the task in the hidden message, can you reduce it to 4 lines?
+# Finally, use a while loop make a list of the powers of 3 which are less than
+# 1000 (the list should start 3, 9, 27,... and all entries should be <1000).
+# Introduce a for loop to make a list of lists of the powers of the odd numbers
+# less than 10 (the list created above should be one of the entries).
 
 
 shuffled_instructions = "iarrtbtl oe 4e0cl0b  ulooh 5s0p nu e umeh otoed u0ucaMseo ffp enloaeom    st1 dw iebnma0de wem h lnts lffiic t6lpiatti.uba hnr1  rn e lekesm"
