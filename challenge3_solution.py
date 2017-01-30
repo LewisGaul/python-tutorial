@@ -27,16 +27,16 @@
 # condition like 'if type(arg) is int: ...'.
 
 
-def transform_list(input_list, pow=1.5):
+def transform_list(input_list, power=1.5):
     # Map every element of input_list by raising it to the power pow which
     # defaults to 1.5.
-    return [round(i**pow, 2) for i in input_list]
+    return [round(i**power, 2) for i in input_list]
 
 # Create a list of transformed lists using the function above with powers
 # -3, -1, 1, 3 for the list [1, 2, 3, 4].
 transformed_lists = []
 for i in range(-3, 4, 2):
-    transformed_lists.append(transform_list(range(1, 5), pow=i))
+    transformed_lists.append(transform_list(range(1, 5), power=i))
 # Flatten the list of lists, putting all the elements into one list.
 print([i for l in transformed_lists for i in l])
 
