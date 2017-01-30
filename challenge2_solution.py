@@ -27,12 +27,13 @@ shuffle_order = [97, 61, 138, 81, 108, 136, 68, 111, 92, 75, 131, 64, 84, 63, 53
 # Create a list of the same length as the message. Each element of the list
 # will be replaced with a character from the message, so it could be a list of
 # anything to begin with.
-text_list = len(shuffle_order) * ['']
+text_list = len(shuffle_order) * ['_']
 # Loop through the indices which correspond to the correct position for each
 # character. Use each index to place the i'th character of the message in the
 # right place in the list.
 i = 0
 for index in shuffle_order:
+    # print(''.join(text_list)) #Uncomment this for supercool illustration
     text_list[index] = shuffled_instructions[i]
     i += 1
 # Note the above can (and should) be done as follows:
