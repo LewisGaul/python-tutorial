@@ -51,15 +51,35 @@ def count_pattern(text, pattern1, pattern2=None):
         num2 = 0
     total = num1 + num2
     return total
-
+    
+text = "You can use this text to check your function works."
 print("There are", count_pattern(text, 'e'), "'e's in the text.")
 print("There are", count_pattern(text, 'a', 'e'), "'a's and 'e's in the text")
     
 
+# Challenge 2:
+def get_primes(arg):
+    if type(arg) is int:
+        n = arg
+    else:
+        n = max(arg)
+    primes = [2] #Include the only even number
+    num = 3 #Only consider odd numbers
+    while len(primes) < n:
+        for p in primes:
+            if p > num**0.5:
+                primes.append(num)
+                break
+            elif num % p == 0:
+                break #Don't include in primes because it has a divisor
+        num += 2
+    if type(arg) is int:
+        return primes
+    else:
+        return [primes[i-1] for i in arg] 
 
-# Challenge 2 check:
-# print("First 10 primes are:", get_primes(10))
-# print("Every other prime:", get_primes(range(1, 10, 2)))
+print("First 10 primes are:", get_primes(10))
+print("Every other prime:", get_primes(range(1, 10, 2)))
 
 
 
