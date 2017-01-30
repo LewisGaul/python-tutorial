@@ -6,7 +6,7 @@
 # variable names and clearer code where you can.
 
 # When you understand the code below you can choose either of the following
-# challenges:
+# challenges to start with (the first is easier):
 
 # 1) Write a function which takes in two string arguments - the first is some
 # text and the second is a short string (e.g. a character or a word). It should
