@@ -27,20 +27,32 @@
 # condition like 'if type(arg) is int: ...'.
 
 
-# Can you rewrite this function in 2 lines instead of 6?
 def transform_list(input_list, pow=1.5):
-    # Write here an explanation of what the function does.
-    output_list = []
-    for i in input_list:
-        output_list.append(round(i**pow, 2))
-    return output_list
+    # Map every element of input_list by raising it to the power pow which
+    # defaults to 1.5.
+    return [round(i**pow, 2) for i in input_list]
 
-# What is this loop doing?
+# Create a list of transformed lists using the function above with powers
+# -3, -1, 1, 3 for the list [1, 2, 3, 4].
 transformed_lists = []
 for i in range(-3, 4, 2):
     transformed_lists.append(transform_list(range(1, 5), pow=i))
-# If you're not sure how this works consider printing transformed_lists.
+# Flatten the list of lists, putting all the elements into one list.
 print([i for l in transformed_lists for i in l])
+
+# Challenge 1:
+def count_pattern(text, pattern1, pattern2=None):
+    num1 = text.count(pattern1)
+    if num1 == 0:
+        print("Warning: pattern", pattern1, "not found in the text")
+    if pattern2 is not None:
+        num2 = text.count(pattern2)
+    else:
+        num2 = 0
+    total = num1 + num2
+    return total
+print("There are", count_pattern(text, 'a', 'e'), "'a's and 'e's in the text")
+    
     
 
 
