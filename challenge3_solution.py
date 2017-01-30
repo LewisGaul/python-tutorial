@@ -51,9 +51,16 @@ def count_pattern(text, pattern1, pattern2=None):
         num2 = 0
     total = num1 + num2
     return total
+
+print("There are", count_pattern(text, 'e'), "'e's in the text.")
 print("There are", count_pattern(text, 'a', 'e'), "'a's and 'e's in the text")
     
-    
+
+
+# Challenge 2 check:
+# print("First 10 primes are:", get_primes(10))
+# print("Every other prime:", get_primes(range(1, 10, 2)))
+
 
 
 
