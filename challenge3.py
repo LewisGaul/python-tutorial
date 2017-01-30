@@ -43,6 +43,12 @@ for i in range(-3, 4, 2):
 print([i for l in transformed_lists for i in l])
     
 
+# Challenge 1 check:
+# text = "You can use this text to check your function works."
+# print("There are", count_pattern(text, 'e'), "'e's in the text.")
+# print("There are", count_pattern(text, 'a', 'e'), "'a's and 'e's in the text.")
 
-
+# Challenge 2 check:
+# print("First 10 primes are:", get_primes(10))
+# print("Every other prime:", get_primes(range(1, 10, 2)))
 
