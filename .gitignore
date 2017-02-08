@@ -1,3 +1,5 @@
 venv/
-all-challenges/
+all-challengesHIDDEN/
 slides_master.pptx
+*/__pycache__/
+*.pyc
