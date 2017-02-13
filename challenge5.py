@@ -5,17 +5,19 @@
 # in the shell), add in some comments and make some improvements by using better
 # variable names and clearer code where you can.
 
-# When you understand the code below, make a card game in a separate file. You
-# should include:
-# - an import from this file;
-# - a 'Game' class (not really necessary, but good practice);
-# - a while loop which runs until someone wins;
-# - the 'input' function to get what a player wants to do.
-# Remember to separate code into functions or the Game class where suitable.
+# When you understand the code below, make a card game in a separate file.
 # Recommended card games to try and make (first is easier):
 # - Higher or lower (player guesses whether the next card will be higher or
 #   lower than the last, should end up with a score for the number correct);
-# - Blackjack (a.k.a. 21/pontoon, see wikipedia for rules).
+# - Blackjack (a.k.a. 21/pontoon, see wikipedia for rules. Start without any
+#   betting for simplicity).
+# You should include:
+# - an import from this file (challenge5);
+# - a 'Game' class (not really necessary, but good practice and makes the code
+#   more readable);
+# - a loop which runs until the game is over;
+# - the 'input' function to get what a player wants to do.
+# Remember to separate into methods inside the Game class where suitable.
 
 
 import random as rnd
