@@ -2,8 +2,7 @@
 # WEEK 5 CHALLENGE - classes
 
 # Work out how the code below works (use print statements or display variables
-# in the shell), add in some comments and make some improvements by using better
-# variable names and clearer code where you can.
+# in the shell), add in some comments to make it clearer where you can.
 
 # When you understand the code below, make a card game in a separate file.
 # Recommended card games to try and make (first is easier):
