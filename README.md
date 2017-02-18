@@ -2,7 +2,6 @@
 Used for Oxford CodeSoc weekly Python classes which are one hour long.
 
 Link to download this week's challenge:  
-[challenge5](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121636&authkey=AGbNLEhKTt7aOE4)
 
 Links to previous challenges and solutions:  
 [challenge1](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121336&authkey=AHaEps48TzITuqI),
@@ -13,3 +12,5 @@ Links to previous challenges and solutions:
 [solution](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121442&authkey=AKRwzirlccXaRkM)  
 [challenge4](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121303&authkey=AGN5lNOz6hVxyoY),
 [solution](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121441&authkey=AHP3F2o3GzzE5h4)  
+[challenge5](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121636&authkey=AGbNLEhKTt7aOE4), 
+[solution](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121715&authkey=AB3eZFObynbfbl0)
