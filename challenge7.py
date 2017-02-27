@@ -1,59 +1,44 @@
 "github.com/lewisgaul/python-tutorial"
-# WEEK 5 CHALLENGE - classes and GUIs
+# WEEK 7 CHALLENGE - classes and GUIs
 
-# Work out how the code below works, add in some comments to make it clearer
-# where you can.
+# Take another look at the code below, try to understand where the classes are
+# used. If it helps, try simplifying the code by removing it from classes and
+# see if you can get it running that way too.
 
-# First change the code below so that clicking the button stops the timer. If
-# there's any style configuration you'd like to do try searching online
-# (e.g. search 'tkinter button background colour'), or ask me.
-
-# Use the code below to make a simple game (feel free to use your imagination
-# and ask if you need help). Try to include some more widgets.
+# Use the code below to make noughts and crosses.
 
 
 import tkinter as tk
-import time as tm
 
 
-class TimerGui(tk.Tk):
+class Gui(tk.Tk):
     def __init__(self):
-        super().__init__()
-        # Create a Timer instance (defined below).
-        self.timer = Timer(self)
-        self.timer.pack()
+        super().__init__() #Create the main window (like 'window = tk.Tk()')
         # Call the method below.
-        self.place_button('Click me!')
+        self.make_buttons()
 
-    def place_button(self, text):
-        # When creating a widget (e.g. Button, Label) there are a number of
-        # arguments you can pass. Here we give the button text and an action
+    def make_buttons(self):
+        # When creating a widget (e.g. Button, Label) there are a various
+        # arguments you can pass. Here we give the buttons an action
         # which is a function which will be run when it is clicked.
-        button = tk.Button(self, text=text, command=self.button_action)
-        # Place the button (it is only created above).
-        button.pack()
+        self.buttons = []
+        for i in range(3):
+            b = tk.Button(self, width=11, height=6,
+                command=self.get_button_action(i))
+            b.grid(row=0, column=i)
+            self.buttons.append(b)
 
-    def button_action(self):
-        print("Button pressed")
-
-
-class Timer(tk.Label):
-    def __init__(self, parent):
-        # Create a Label instance from the tk module.
-        super().__init__(parent)
-        self.start_time = tm.time()
-        self.update()
-
-    def update(self):
-        # Below is some string formatting (2 decimal places).
-        # Configure the text that is displayed on the timer label.
-        self.config(text="{:.2f}".format(tm.time() - self.start_time))
-        # Run this method again after 1 millisecond.
-        self.after(1, self.update)
+    def get_button_action(self, b_num):
+        print("Button", b_num, "pressed")
+        def action():
+            b = self.buttons[b_num]
+            b.config(text='O')
+        # Return the function which will be called when button is pressed.
+        return action
 
 
 
 
 if __name__ == '__main__':
-    gui = TimerGui() #create a gui
+    gui = Gui() #create a gui
     gui.mainloop() #method inherited from tk.Tk (starts the GUI)
