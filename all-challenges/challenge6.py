@@ -1,5 +1,5 @@
 "github.com/lewisgaul/python-tutorial"
-# WEEK 5 CHALLENGE - classes and GUIs
+# WEEK 6 CHALLENGE - classes and GUIs
 
 # Work out how the code below works, add in some comments to make it clearer
 # where you can.
