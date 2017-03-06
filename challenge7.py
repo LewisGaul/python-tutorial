@@ -29,8 +29,8 @@ class Gui(tk.Tk):
             self.buttons.append(b)
 
     def get_button_action(self, b_num):
-        print("Button", b_num, "pressed")
         def action():
+            print("Button", b_num, "pressed")
             b = self.buttons[b_num]
             b.config(text='O')
         # Return the function which will be called when button is pressed.
