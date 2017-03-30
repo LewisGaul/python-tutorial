@@ -1,7 +1,5 @@
 # python-tutorial
-Used for Oxford CodeSoc weekly Python classes which are one hour long.
-
-Link to download this week's challenge: [challenge7](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21124578&authkey=AEICVHmyaJ4xNXw) 
+Used for Oxford CodeSoc weekly Python classes which are one hour long each.
 
 Links to previous challenges and solutions:  
 [challenge1](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121336&authkey=AHaEps48TzITuqI),
@@ -16,3 +14,5 @@ Links to previous challenges and solutions:
 [solution](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121715&authkey=AB3eZFObynbfbl0)  
 [challenge6](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21121773&authkey=ACQCQQurVLjii9E), 
 [solution](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21124579&authkey=ADCx5ZGQy3HFTR8)  
+[challenge7](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C  %21124578&authkey=AEICVHmyaJ4xNXw)  
+[challenge8](https://onedrive.live.com/download?cid=409B943F3040E52C&resid=409B943F3040E52C%21126941&authkey=AKFYcd-xXZfeA08) 
